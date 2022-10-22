@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+body{
+    font-family:"Open Sans", sans-serif; 
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1360px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+header{
+    background-color: #0A253E;
+}
+.header-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list{
+    list-style: none;
+    display: flex; 
+    margin-right: 40px;
+}
+.nav-item{
+    margin-left: 40px;
+}
+.nav-link{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.login{
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #0A2640;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 8px 49px;
+}
+.hero{
+    background-color:#0A253E ;
+}
+.hero-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    width: 842px;
+}
+.hero-str{
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #F1F1F1;
+    font-style: normal;
+    margin-bottom: 12px;
+}
+.hero-title{
+    font-family: 'Manrope',sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    margin-bottom: 17.5;
+}
+.hero-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #F1F1F1;
+    font-family: 'Open Sans';
+    margin-bottom: 166px;
+}
