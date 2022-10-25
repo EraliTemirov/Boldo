@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 .container{
-    width: 1360px;
+    width: 1208px;
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -115,4 +115,22 @@ nav{
     color: #F1F1F1;
     font-family: 'Open Sans';
     margin-bottom: 166px;
+}
+.hero2{
+    display: flex;
+    transform: translateY(-120px);
+    align-items: center;
+}
+.img1{
+    width: 300px;
+    margin-right: 40px;
+}
+.mtimg{
+    margin-top: 10px;
+    width: 280px;
+    margin-right: 10px;
+}
+.imgt{
+    width: 350px;
+    margin-right: 40px;
 }
